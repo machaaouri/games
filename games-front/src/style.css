@@ -1,0 +1,43 @@
+.games {
+  margin: 20px;
+}
+
+.games .breadcrumb button {margin-left: 10px}
+
+.truncate div {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.tag {
+  font-size: small;
+  margin-right: 5px;
+}
+
+.game {
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.publisher {
+  font-weight: bold;
+  font-size: small;
+}
+.game .publisher p {
+  
+  margin-bottom: 0px;
+  margin-top: -5px
+}
+
+.publisher .btn {
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+
+.buttons .btn {
+  padding-top: 0px;
+  padding-bottom: 0px;
+  margin-left: 5px;
+  float: right;
+}

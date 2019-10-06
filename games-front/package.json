@@ -1,0 +1,42 @@
+{
+  "name": "react-typescript",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server --hot",
+    "build": "webpack",
+    "watch": "webpack -w",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/machaaouri/react-typescript.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/machaaouri/react-typescript/issues"
+  },
+  "homepage": "https://github.com/machaaouri/react-typescript#readme",
+  "dependencies": {
+    "@types/react": "^16.8.24",
+    "@types/react-bootstrap": "^0.32.20",
+    "@types/react-dom": "^16.8.5",
+    "@types/reactstrap": "^8.0.4",
+    "react": "^16.8.6",
+    "react-bootstrap": "^0.31.3",
+    "react-dom": "^16.8.6",
+    "reactstrap": "^8.0.1",
+    "typescript": "^3.5.3"
+  },
+  "devDependencies": {
+    "css-loader": "^3.1.0",
+    "style-loader": "^0.23.1",
+    "ts-loader": "^6.0.4",
+    "webpack": "^4.38.0",
+    "webpack-cli": "^3.3.6",
+    "webpack-dev-server": "^3.7.2"
+  }
+}
