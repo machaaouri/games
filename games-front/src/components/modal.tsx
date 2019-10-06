@@ -86,12 +86,12 @@ export const GameModal = (p: {
                         </div>
                         <div className="col-md-4 mb-3">
                             <label htmlFor="siret">Siret</label>
-                            <input type="text" 
+                            <input type="number" 
                                    className="form-control form-control-sm" 
                                    id="siret" 
                                    name="siret"
                                    onChange={onChangePublisher}
-                                   value={localGame.publisher && localGame.publisher.siret}
+                                   value={localGame.publisher && localGame.publisher.siret + ""}
                                    placeholder="siret" />
                         </div>
                         <div className="col-md-4 mb-4">
