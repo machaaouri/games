@@ -1,0 +1,26 @@
+version: '3'
+services:
+  server:
+    container_name: docker-node-mongo
+    restart: always
+    build: ./games-backend
+    ports:
+      - '3000:3000'
+    links:
+      - mongo
+  mongo:
+    container_name: mongo
+    image: mongo
+    ports:
+      - '27017:27017'
+  client:
+    container_name: front
+    restart: always
+    build: ./games-front
+    ports:
+      - '8080:8080'
+    links:
+      - server
+
+
+
